@@ -121,15 +121,27 @@ button:hover{
     flex-direction: column;
     background-color: #475569;
     align-items: center;
+    border-radius: 15px;
+    color: white;
+    padding-bottom: 1rem;
+}
+.card p{
+    font-size: 1.2rem;
+}
+.card button{
+    font-size: 1rem;
 }
 .product__img{
-    padding: 0;
+    padding: 0.6rem;
     width: 100%;
+   
 }
 .product__img img{
     align-items: center;
     width: 100%;
+    /* height: 80%; */
     object-fit: cover;
+    border-radius: 10px;
 }
 
 
