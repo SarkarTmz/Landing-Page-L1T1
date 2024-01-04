@@ -161,9 +161,61 @@ button:hover{
     border-radius: 10px;
 }
 
+/* Comapany */
+.company__wrapper p{
+    font-size: 1.2rem;
+}
+.company__wrapper img{
+    width: 100%;
+}
 
 
+/* contact */
+.contact__wrapper form{
+    width: 100%;
+}
+.contact__wrapper{
+    width: 100%;
+    font-size: 1.2rem;
+}
+label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+}
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+.submit{
+    cursor: pointer;
+}
 
+/* footer */
+.footer{
+    background-color: #475569;
+    padding: 3rem 0;
+    color: white;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+ 
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
 
 @media (min-width: 475px){
     .container{
@@ -180,6 +232,10 @@ button:hover{
     }
     .hero__title h1{
         font-size: 4.5rem;
+    }
+    .footer__wrapper{
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
